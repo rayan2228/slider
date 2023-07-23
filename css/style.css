@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+main {
+    width: 76%;
+    height: 76%;
+    background-color: #7a7979;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider_child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
